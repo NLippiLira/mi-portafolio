@@ -1,0 +1,200 @@
+.formulario {
+    text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+    h2{
+      text-align: center;
+      padding: 20px;}
+      .card{
+          width: 100%;
+          height: 100%;
+      }
+      .contacto{
+          background: #007bff;
+      }
+     
+        .imagenes:hover {
+          transform: scale(1.2); 
+        }
+  
+  
+  .custom-navbar-brand {
+    font-size: 2rem; 
+    animation: heartbeat 1.5s infinite;
+    color: #0b5345;
+  }
+  
+  @keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+  }
+  
+  .primero {
+    background-color: #333;
+    padding: 10px;
+  }
+  .ultimo {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: #ecf0f1 ;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    transform: scale(1.1); 
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: #ecf0f1 ;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-item {
+    color: #333333;
+    font-size: 1rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item.dropdown .dropdown-item:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 5px; 
+  }
+  
+  .navbar-toggler {
+    border-color: #007bff;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23007bff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .form-control {
+    border-radius: 20px;
+    padding: 0.75rem 1rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ced4da;
+  }
+  
+  .btn-outline-success {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 20px;
+    padding: 0.5rem 1.25rem;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #033c79;
+    border-color: #033c79;
+  }
+  
+  .primero .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-right: 15px;
+    transition: color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+  }
+  
+  .primero .nav-link img {
+    margin-right: 5px; 
+    height: 30px; 
+    width: 30px; 
+  }
+  
+  .primero .nav-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .primero .nav-link.active {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .primero .nav-link.disabled {
+    color: #888;
+    cursor: not-allowed;
+  }
+  
+  #navprimero{
+    background: #007bff !important;
+  }
+  
+  h2 {
+    text-align: center;
+    padding: 20px;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+  .contacto {
+    background: #007bff;
+  } 
+  .imagenes:hover {
+    transform: scale(1.2); /* Ajusta el valor para el nivel de zoom deseado */
+  }
+  .row {
+    padding: 10px;
+  }
+  
+  img {
+    border-radius: 15px !important;
+  }
+
+   #ig{
+    width: 25%;
+    display: inline-block;
+  }
+  #fb, #linkdn{
+    width: 35%;
+    display: inline-block;
+    
+  }
+  #textLk, #textFb, #textIg{
+    color: grey;
+    text-align: justify;
+  }
+  #boton{
+    margin: 5%;
+    width: 10%;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+  }
+  #carouselExampleIndicators{
+    background-color:grey;
+    padding: 5%;
+  }
+ 
