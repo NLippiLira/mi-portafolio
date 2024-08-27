@@ -1,10 +1,10 @@
 /* cambiar color contacto */
 $(document).ready(function () {
-    $(".contacto").mouseenter(function () {
-      $(".contacto").css("background-color", "YellowGreen");
+    $(".contenedor").mouseenter(function () {
+      $(".contenedor").css("background-color", "#007bff");
     });
-    $(".contacto").mouseleave(function () {
-      $(".contacto").css("background-color", "");
+    $(".contenedor").mouseleave(function () {
+      $(".contenedor").css("background-color", "#c0c0c0");
     });
   });
   /* zoom a imagenes */
