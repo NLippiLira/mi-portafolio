@@ -15,7 +15,8 @@ inputBoton.addEventListener("click", () => {
     })
 }) 
 
-function contactAlert(){ alert("Gracias por enviar su formulario");
+function contactAlert(){ 
+    alert("Gracias por enviar su formulario");
 }
    
    
