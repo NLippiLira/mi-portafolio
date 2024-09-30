@@ -273,3 +273,7 @@ h2 {
 #siguenos{
   animation: heartbeat 1.5s infinite;
 }
+#carousel-inner img {
+width: 100%;
+aspect-ratio: 3/2;
+}

@@ -15,8 +15,6 @@ inputBoton.addEventListener("click", () => {
     })
 }) 
 
-function contactAlert(){ 
-    alert("Gracias por enviar su formulario");
-}
-   
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
    
