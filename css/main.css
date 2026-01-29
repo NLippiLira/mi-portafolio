@@ -56,3 +56,14 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
 
+#habilidades ul li {
+  padding: 6px 0;
+}
+
+#habilidades .card {
+  transition: transform 0.3s ease;
+}
+
+#habilidades .card:hover {
+  transform: translateY(-6px);
+}
