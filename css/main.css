@@ -12,6 +12,7 @@ body {
   color: #0d6efd;
 }
 
+
 .hero {
   min-height: 100vh;
   background: linear-gradient(
@@ -26,4 +27,22 @@ body {
   max-width: 320px;
   border-radius: 50%;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+#sobre-mi {
+  background-color: #f8f9fa;
+}
+
+#sobre-mi h2 {
+  position: relative;
+}
+
+#sobre-mi h2::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background-color: #0d6efd;
+  display: block;
+  margin-top: 10px;
 }
