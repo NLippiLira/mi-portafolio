@@ -1,8 +1,39 @@
+/* ===== THEME VARIABLES ===== */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #212529;
+  --section-bg: #f8f9fa;
+  --card-bg: #ffffff;
+  --navbar-bg: #212529;
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --section-bg: #1e1e1e;
+  --card-bg: #1f1f1f;
+  --navbar-bg: #000000;
+}
+
 html {
   scroll-behavior: smooth;
 }
 body {
   padding-top: 70px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+section {
+  background-color: var(--section-bg);
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg) !important;
 }
 .nav-link {
   transition: color 0.3s ease;
