@@ -133,3 +133,18 @@ footer a:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+
+.cv-section {
+  background-color: var(--section-bg);
+}
+
+.cv-section .btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform 0.3s ease;
+}
+
+.cv-section .btn:hover {
+  transform: translateY(-3px);
+}
