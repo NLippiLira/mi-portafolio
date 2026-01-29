@@ -1,0 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 70px;
+}
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
